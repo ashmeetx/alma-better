@@ -1,0 +1,713 @@
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529 !important;
+    text-align: left;
+    font-family: inherit;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+  }
+  #navcol-1 {
+    font-size: 18px;
+  }
+  .navbar-brand{
+    color:black !important;
+    font-size: 2.2rem;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 700;
+  }
+  .fiest-tech{
+    height: auto;
+    width: 200px
+  }
+  .navbar-brand span{
+    color:black;
+    border-bottom: 5px solid #f00037;
+    font-size: 2.2rem;
+    font-weight: 700;
+    position: relative;
+    bottom: 10px;
+  }
+  .navbar-nav .nav-link {
+    color: black;
+    margin: 10px 23px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.container-fluid{
+    padding: 0 60px;
+}
+.navbar-nav .nav-link:hover {
+    color: #f00037
+}
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+  }
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.div-card {
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.quote {
+    color: #d74949 !important;
+    padding: 10px 8px;
+    border: 1px solid #d74949;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+.banner-text{
+color: black;
+display:block;
+margin-top: 150px;
+}
+.banner-text h1 {
+    font-size: 2.5rem;
+    font-family: inherit;
+    font-weight: 600;
+}
+.banner-text span{
+    color: rgb(255, 0, 85);
+    border-bottom: 0.5rem solid transparent;
+    border-image:linear-gradient(90deg,#2d23a6,rgba(225,14,90,.99)); ;
+    border-image-slice: 1;
+}
+.banner-text p{
+    font-size: 20px;
+    color: gray;
+}
+.banner-text a{
+    color: white;
+    background-color: rgb(255, 0, 85);
+    padding: 20px 10px;
+    border-radius: 10px;
+    font-size: 1.0rem;
+    margin: 10px 0;
+    font-weight: 600;
+}
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+.front-faces img{
+    padding: 100px 0 0 0;
+height: 600px;
+width: 600px;
+}
+.bg{
+    background-color: #fcf4f5;
+}
+.bg2{
+    background-color: white;
+    margin: 50px 20px 50px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.career h3{
+    font-size: 2.0rem;
+    margin: 50px 50px 0;
+    font-weight: 600;
+}
+.career p{
+    font-size: 1.2rem;
+    margin: 30px 0;
+    text-align: center;
+    color: gray;
+
+}
+.contact-us p i{
+    padding-right: 5px;
+}
+.logo img {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+.logo {
+    margin:0;
+}
+.py-120{
+    padding: 100px 0;
+}
+.transforming h3{
+    color: black;
+    font-size: 2.0rem;
+    font-weight: 600;
+}
+.transforming p{
+    color: gray;
+    padding: 30px 0;
+    text-align: left;
+    font-size: 1.2rem;
+    margin-right: 100px;
+}
+.transforming img{
+    height: 600px;
+    width: 600px;
+}
+.carousel .carousel-item {
+    color: #999;
+    overflow: hidden;
+    min-height: 120px;
+    font-size: 13px;
+}
+.carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #000000;
+    text-align: center;
+    opacity: .5;
+}
+.bg3{
+    background-color: #f5f7ff;
+}
+.featured h3{
+margin: 60px 20px 10px;
+font-weight: 600;
+}
+.featured p{
+    margin: 15px 10px 50px;
+    font-size: 1.1rem;
+    color: gray;
+}
+.card{
+    border-radius: 10px;
+    position: relative;
+    top: 20%;
+    margin: -50px 100px;
+}
+
+.card-top{
+    background-image:linear-gradient(#2f2f30,rgba(0, 0, 0, 0.99)); ; ;
+    border-radius: 10px;
+}
+.card-top h5{
+    color: white;
+    padding: 10px 20px;
+}
+.card-body{background-color: white;}
+.card-top img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    left: 10px;
+    margin: 20px;
+}
+.card-top p{
+    color: rgb(201, 201, 201);
+    padding: 0px 20px;
+    font-size: 1.05rem;
+}
+
+.card-body P {
+    color: gray;
+    font-size: 1.1rem;
+    text-align: left;
+    line-height: 1.8rem;
+}
+.card-footer{
+    background-color: white !important;
+}
+.card-footer a {
+    color: #f00037;
+    display: block;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #f00037;
+    padding: 15px 20px;
+    font-weight: 600;
+}
+.wall h2{
+    font-weight: 600;
+    margin-top: 200px;
+}
+
+.pad{ border: 1px solid rgb(190, 190, 190);
+padding: 20px;
+border-radius: 10px;
+}
+.pad-body{padding: 5px 15px;
+}
+
+.pad-body p{
+text-align: justify;
+font-size: 0.8rem;
+}
+.pad-body span{
+
+    color: gray;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.pad-head {
+    display:flex;
+    position: relative;
+}
+.pad-head h3 {
+    padding: 10px 15px;
+    color: #000000;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.pad-head img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.pad-head a i {
+    font-size: 1.5rem;
+    padding: 10px 10px 10px 25px;
+    position: relative;
+    top: -10px;
+}
+.view a {
+    font-size: 1.3rem;
+    color: #f00037;
+    padding: 15px 30px;
+    border: 1px solid #f00037;
+    border-radius: 10px;
+}
+ .small-t{
+    padding: 0px 15px;
+    color: #ff0077;
+    font-size: .8rem;
+    position: relative;
+    bottom: 15px;
+}
+.walll h2 {
+    font-weight: 600;
+    margin-top: 100px;
+}
+.padd {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 0 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.pad-content p{
+    text-align: justify;
+    font-size: .85rem;
+    color: gray;
+    padding: 10px 15px;
+    }
+.pad-content h3{
+    text-align: left;
+    font-size: 1.3rem;
+    color: black;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+.pad-img img{
+    height: 186px;
+    width: 100%;
+    position: relative;
+    top: 5px;
+}
+
+.l-box{
+    position: relative;
+    left: 60px;
+}
+.r-box{
+    position: relative;
+    left: -60px;
+}
+.carousel .carousel-indicators {
+    bottom: -35px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 1px 2px;
+    box-sizing: border-box;
+}
+.carousel-indicators li {	
+    background:#717272;
+}
+.carousel-indicators li.active {
+    color: #fff;
+    background:#2c2c2c      
+}
+.see{
+    margin-top:100px
+}
+.see a {
+    font-size: 1.3rem;
+    color: white;
+    padding: 15px;
+   background-color: #f00037;
+    border-radius: 10px;
+
+}
+.bg-img{
+    background-image: url("../img/bg-img.png");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.community h2{
+color: black;
+margin: 50px 0 0 0;
+font-weight: 600;
+font-size: 1.8rem;
+
+}
+.community p {
+    color: gray;
+    font-size: 1.0rem;
+    line-height: 2.0rem;
+    margin: 35px 20px 60px;
+}
+.community a{
+    padding: 20px 30px;
+    background-color: #f00037;
+    color: white;
+    border-radius: 10px;
+}
+.funding img{
+    margin-top: 50px;
+}
+.funding h1{
+    margin-top: 25px;
+    font-weight: 600;
+}
+.funding h1 span{
+    font-size: 1.5rem;
+}
+.funding p{
+    color: gray;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    
+}
+.funding p span{ 
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: 600;}
+
+.funding h1 img {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+.investors img{
+    width: 100px;
+    height: 100px;
+}
+.investors h3 {
+    font-weight: 600;
+    margin: 20px 0 5px;
+    font-size: 1.5rem;
+}
+.investors p{
+    font-size: 15px;
+    margin: 0 0 5px;
+}
+.investors span{
+    color: #f00037;
+}
+.news h1{
+    font-weight: 600;
+    font-size: 2.0rem;
+}
+.news-box{
+    padding: 20px;
+}
+.news-box img{
+    width: 100%;
+    height: auto;
+}
+.news-box p {
+    color: gray;
+    line-height: 2rem;
+    font-size: 1.05rem;
+    text-align: center;
+}
+.news-box{
+    border-radius: 5px;
+}
+.new-btn a {
+    padding: 20px 30px;
+    background-color: #f00037;
+    color: white;
+    border-radius: 10px;
+}
+.new-btn{
+    margin: 50px 0;
+}
+.bg-pink{
+    background-image: linear-gradient(90deg, #f00037,pink);
+    border-radius: 5px;
+    margin-bottom: 70px;
+}
+.discord h3{
+    color: white;
+    padding: 0 150px 0 20px;
+    font-weight: 600;
+
+}
+.discord p {
+    color: white;
+    padding: 26px 112px 26px 20px;
+    font-weight: 600;
+}
+.discord a {
+    background-color: white;
+    color: #f00037;
+    padding: 15px 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.discord img{
+    position: relative;
+    left: 15px;
+}
+footer{background-color: #000000;
+color:white;
+}
+
+.contact-us{
+    margin-top: 50px;
+}
+.contact-us h4 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+}
+.footer-social{
+    display: flex;
+}
+
+
+.footer-social {
+    position: relative;
+    left: -50px;
+}
+.footer-social li a i {
+    color: #ffffff;
+}
+.footer-social li a{
+    font-size: 20px;
+}
+.footer-social li{
+    margin: 15px 10px;
+}
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+
+}
+.footer-list a{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+.footer-list a i{ 
+color:  white;
+font-size: .3rem;
+margin: 5px;
+}
+.footer-widget-title {
+    color: #ffffff !important;
+    position: relative;
+    padding-bottom: 20px;
+    margin-top: 70px;
+    font-size: 32px;
+    z-index: 1;
+    text-align: center;
+}
+.list {
+    position: relative;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 35px; 
+}
+.col-container {
+    display: table;
+    width: 100%;
+  }
+  .col {
+    display: table-cell;
+    padding: 16px;
+  }
+@media(max-width:495px)
+{
+    body{overflow-x: hidden;}
+    .transforming h3 {
+        color: black;
+        font-size: 1.8rem;
+        font-weight: 600;
+        text-align: justify;
+    }
+    .banner-text h1 {
+        font-size: 2.0rem;
+        font-weight: 600;
+    }
+    .banner-text p {
+        font-size: 1rem;
+        color: gray;
+        text-align: center;
+    }
+    .fiest-tech {
+        height: auto;
+        width: 55%;
+        margin-left: 10px;
+    }
+    .news-box {
+        padding: 20px;
+        margin: 10px 0;
+    }
+    .navbar-toggler .navbar-toggler-icon .iconify-icon{
+        color: #000;
+    }
+    .navbar-nav .nav-link {
+        color: black;
+        margin: 0px 23px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: #e9e9e9;
+        color: #fbfbfb !important;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
+    .banner-text a {
+        color: white;
+        background-color: rgb(255, 0, 85);
+        padding: 15px 0px;
+        border-radius: 10px;
+        font-size: 1.0rem;
+        margin: 20px 0;
+        font-weight: 600;
+        width: 50%;
+        text-align: center;
+        display: block;
+    }.transforming {
+        padding: 30px 0 !important;
+    }
+
+    .front-faces img {
+        padding: 50px 0 0 0;
+        height: auto;
+        width: 100%;
+    }
+    .container-fluid {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .career h3 {
+        font-size: 1.75rem;
+        margin: 50px 5px 0;
+        font-weight: 600;
+    }
+    .bg2 {
+        background-color: white;
+        margin: 10px 0 50px 0;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    
+    .transforming p {
+        color: gray;
+        padding: 30px 0;
+        text-align: center;
+        font-size: 1rem;
+        margin: 0;
+    }
+    .transforming img {
+        height: auto;
+        width: 100%;
+    }
+    .py-120 {
+        padding: 50px 0;
+    }
+    .discord h3 {
+        color: white;
+        padding: 0;
+        text-align: center;
+        font-weight: 600;
+    }
+    .contact-us img{
+        width: 100%;
+    }
+    .discord p {
+        margin-bottom: 20px;
+        color: white;
+        padding: 20px;
+        text-align: justify;
+        font-weight: 600;
+    }
+    .card {
+        border-radius: 10px;
+        width: 100% !important;
+        position: relative;
+        top: 0;
+        margin: 20px 0;
+    }
+    .l-box {position:initial}
+    .r-box {position:initial}
+    .wall h2 {
+        font-weight: 600;
+        margin-top: 50px;
+    }
+    .view{
+        margin-top: 50px;
+    }
+    .see a {
+        font-size: 1.5rem;
+        color: white;
+        padding: 15px 10px;
+        background-color: #f00037;
+        border-radius: 10px;
+    }
+    .bg-img {
+        background-image: url(../img/bg-img.png);
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: unset;
+        position: relative;
+    }
+
+}
+@media(max-width:1000px)
+{
+    body{overflow-x: hidden;}
+
+}
